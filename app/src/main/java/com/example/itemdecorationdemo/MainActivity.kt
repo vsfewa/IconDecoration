@@ -39,9 +39,16 @@ class MainActivity : AppCompatActivity() {
         dataList.add("苹果")
         dataList.add("梨子")
         dataList.add("桃子")
+        dataList.add("西瓜")
+        dataList.add("橘子")
         dataList.add("青菜")
         dataList.add("番茄")
         dataList.add("白菜")
+        dataList.add("生菜")
+        dataList.add("茄子")
+        for(i in 0 until 10) {
+            dataList.add(i.toString())
+        }
     }
 
 
